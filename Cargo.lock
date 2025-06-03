@@ -126,7 +126,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "web-boids"
+name = "web-boids-wasm"
 version = "0.1.0"
 dependencies = [
  "wasm-bindgen",

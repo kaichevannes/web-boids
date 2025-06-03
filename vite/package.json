@@ -1,5 +1,5 @@
 {
-  "name": "vite",
+  "name": "web-boids",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -19,7 +19,7 @@
     "**/*.css"
   ],
   "dependencies": {
-    "web-boids": "../pkg"
+    "web-boids-wasm": "../pkg"
   },
   "peerDependencies": {
     "ajv": "^8.17.1",

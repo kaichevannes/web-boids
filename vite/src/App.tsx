@@ -1,6 +1,6 @@
 import './App.css'
 import { Boids } from '../'
-import * as wasm from 'web-boids'
+import * as wasm from 'web-boids-wasm'
 import React from 'react'
 
 function App() {

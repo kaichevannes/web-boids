@@ -1,5 +1,5 @@
 [package]
-name = "web-boids"
+name = "web-boids-wasm"
 version = "0.1.0"
 authors = ["Kai Chevannes <chevannes.kai@gmail.com>"]
 description = "Blazingly fast Boid simulation"
