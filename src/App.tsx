@@ -1,12 +1,14 @@
 import './App.css'
 import { Boids } from '../'
-import * as wasm from 'web-boids-wasm'
 import React from 'react'
+import init, { greet } from '../pkg/web_boids_wasm'
+
+await init();
 
 function App() {
 
   React.useEffect(() => {
-    wasm.greet("WebAssembly with bun");
+    greet("WebAssembly with bun");
   }, []);
 
   return <Boids />

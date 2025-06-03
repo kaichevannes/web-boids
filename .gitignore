@@ -1,3 +1,4 @@
-/target
-vite/node_modules
-vite/*.local
+wasm/target
+node_modules
+*.local
+dist/

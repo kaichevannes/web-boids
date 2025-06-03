@@ -13,13 +13,11 @@
   "files": [
     "web_boids_wasm_bg.wasm",
     "web_boids_wasm.js",
-    "web_boids_wasm_bg.js",
     "web_boids_wasm.d.ts"
   ],
   "main": "web_boids_wasm.js",
   "types": "web_boids_wasm.d.ts",
   "sideEffects": [
-    "./web_boids_wasm.js",
     "./snippets/*"
   ]
 }
