@@ -1,0 +1,13 @@
+[package]
+name = "web-boids"
+version = "0.1.0"
+authors = ["Kai Chevannes <chevannes.kai@gmail.com>"]
+description = "Blazingly fast Boid simulation"
+repository = "https://github.com/kaichevannes/web-boids"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"

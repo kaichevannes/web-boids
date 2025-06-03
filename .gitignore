@@ -1,0 +1,5 @@
+/target
+vite/node_modules
+vite/dist
+vite/dist-ssr
+vite/*.local
