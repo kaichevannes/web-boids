@@ -1,0 +1,25 @@
+{
+  "name": "web-boids",
+  "type": "module",
+  "collaborators": [
+    "Kai Chevannes <chevannes.kai@gmail.com>"
+  ],
+  "description": "Blazingly fast Boid simulation",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaichevannes/web-boids"
+  },
+  "files": [
+    "web_boids_bg.wasm",
+    "web_boids.js",
+    "web_boids_bg.js",
+    "web_boids.d.ts"
+  ],
+  "main": "web_boids.js",
+  "types": "web_boids.d.ts",
+  "sideEffects": [
+    "./web_boids.js",
+    "./snippets/*"
+  ]
+}
