@@ -5,8 +5,7 @@ import { libInjectCss } from 'vite-plugin-lib-inject-css'
 import { extname, relative, resolve } from 'path'
 import { fileURLToPath } from 'node:url'
 import { glob } from 'glob'
-import wasm from 'vite-plugin-wasm'
-import topLevelAwait from 'vite-plugin-top-level-await'
+import wasmPack from 'vite-plugin-wasm-pack'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -16,8 +15,7 @@ export default defineConfig({
     dts({
       tsconfigPath: resolve(__dirname, "tsconfig.lib.json"),
     }),
-    wasm(),
-    topLevelAwait()
+    wasmPack('./wasm-boids')
   ],
   build: {
     copyPublicDir: false,
